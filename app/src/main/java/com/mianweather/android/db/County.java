@@ -14,7 +14,7 @@ public class County extends LitePalSupport {
 
     private String weatherId; //天气id
 
-    private int cithId; //当前所属市的id值
+    private int cityId; //当前所属市的id值
 
     public int getId() {
         return id;
@@ -40,11 +40,11 @@ public class County extends LitePalSupport {
         this.weatherId = weatherId;
     }
 
-    public int getCithId() {
-        return cithId;
+    public int getCityId() {
+        return cityId;
     }
 
     public void setCithId(int cithId) {
-        this.cithId = cithId;
+        this.cityId = cithId;
     }
 }
