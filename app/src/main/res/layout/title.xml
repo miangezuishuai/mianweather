@@ -6,6 +6,17 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:id="@+id/nav_city"
+        android:text="切换城市"
+        android:textColor="#fff"
+        android:textSize="16sp"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:id="@+id/title_city"
         android:layout_centerInParent="true"
         android:textColor="#fff"
